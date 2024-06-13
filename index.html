@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rupinder - Frontend Developer</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="d-flex">
+        <nav class="container d-flex">
+            <a href="index.html" class="logo"><img src="img/logo.png"></a>
+            <ul id="navlink">
+                <button class="closebtn" onclick="closebtn()">
+                    <img src="img/close.png">
+                </button>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="img/resume.pdf" class="normal_btn cv_btn" target="_blank">Resume</a>
+            <button class="hamburger" onclick="openbtn()">
+                <img src="img/bars.png">
+            </button>
+        </nav>
+    </header>
+    <section class="hero_section">
+        <div class="container d-flex">
+            <div class="intro">
+                <span>Hi! I am</span>
+                <h1>Rupinder Kaur</h1>
+                <h2>Web Designer</h2>
+                <a href="#contact" class="normal_btn hire_btn">Hire Me</a>
+            </div>
+            <span class="tag tag1">&lt;/&gt;</span>
+            <span class="tag tag2">&lt;/&gt;</span>
+            <span class="tag tag3">&lt;/&gt;</span>
+            <span class="tag tag4">&lt;/&gt;</span>
+            <span class="tag tag5">&lt;/&gt;</span>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container py d-flex">
+            <div class="col6 aboutimg">
+                <img src="img/about.png" width="100%">
+            </div>
+            <div class="col6">
+                <h3>About</h3>
+                <p class="welcome">Welcome to My Portfolio</p>
+                <p class="text-bold">It's my pleasure to introduce about myself.</p>
+                <p class="details">Hello i'm Rupinder Kaur from Punjab. With more than 4 years experience in IT field. I can buid web layouts in HTML/CSS, Wordpress & Shopify. My layouts work on any device, big or small (Responsive Designs). I also work as a freelance Graphic Designer.</p>
+                <h4>What are my values?</h4>
+                <p class="details">When I work with my project, I focus on understanding the business goals and delivering a final product that will really work for the client.</p>
+            </div>
+        </div>
+    </section>
+     <section id="skills">
+        <div class="container py text-center">
+            <h3>Skills</h3>
+            <div class="row d-flex">
+                <div class="col htmlcol">
+                    <img src="img/html(1).png" alt="html">
+                    <h4>Html5</h4>
+                </div>
+                <div class="col csscol">
+                    <img src="img/css-3.png" alt="css">
+                    <h4>Css3</h4>
+                </div>
+                <div class="col bootstrapcol">
+                    <img src="img/bootstrap(1).png" alt="bootstrap">
+                    <h4>Bootstrap</h4>
+                </div>
+                <div class="col jscol">
+                    <img src="img/java-script.png" alt="java-script">
+                    <h4>Javascript</h4>
+                </div>
+                <div class="col wordpresscol">
+                    <img src="img/wordpress.png" alt="wordpress">
+                    <h4>Wordpress</h4>
+                </div>
+                <div class="col shopifycol">
+                    <img src="img/shopify.png" alt="shopify">
+                    <h4>Shopify</h4>
+                </div>
+                <div class="col photoshopcol">
+                    <img src="img/photoshop.png" alt="photoshop">
+                    <h4>Photoshop</h4>
+                </div>
+                <div class="col figmacol">
+                    <img src="img/figma.png" alt="figma">
+                    <h4>Figma</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container py text-center">
+            <h3>My Projects</h3>
+            <div class="row">
+                <div class="project">
+                    <div class="projectimg">
+                        <img src="img/project_img/portfolio.jpg">
+                        <div class="overlay">
+                            <a href="#" target="_blank">Live View</a>
+                        </div>
+                    </div>
+                    <div class="projectdetail">
+                        <span class="projectname">My Portfolio</span>
+                        <span class="opacity8">(HTML/SCSS/JS)</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="projectimg">
+                        <img src="img/project_img/bmi.jpg">
+                        <div class="overlay">
+                            <a href="https://www.brewmyidea.com/" target="_blank">Live View</a>
+                        </div>
+                    </div>
+                    <div class="projectdetail">
+                        <span class="projectname">Brew My Idea</span>
+                        <span class="opacity8">(HTML/SCSS/JS - Laravel)</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="projectimg">
+                        <img src="img/project_img/lingsdeco.jpg">
+                        <div class="overlay">
+                            <a href="https://lingsdeco.com/" target="_blank">Live View</a>
+                        </div>
+                    </div>
+                    <div class="projectdetail">
+                        <span class="projectname">Lings Deco</span>
+                        <span class="opacity8">(Shopify)</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="projectimg">
+                        <img src="img/project_img/peprain.jpg">
+                        <div class="overlay">
+                            <a href="https://peprain.com/" target="_blank">Live View</a>
+                        </div>
+                    </div>
+                    <div class="projectdetail">
+                        <span class="projectname">Peprain</span>
+                        <span class="opacity8">(PHP + gsap)</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="projectimg">
+                        <img src="img/project_img/provility.jpg">
+                        <div class="overlay">
+                            <a href="https://provility.com/" target="_blank">Live View</a>
+                        </div>
+                    </div>
+                    <div class="projectdetail">
+                        <span class="projectname">Provility</span>
+                        <span class="opacity8">(HTML/SCSS/JS)</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="projectimg">
+                        <img src="img/project_img/dwtl.jpg">
+                        <div class="overlay">
+                            <a href="https://drivingwiththelegends.com/" target="_blank">Live View</a>
+                        </div>
+                    </div>
+                    <div class="projectdetail">
+                        <span class="projectname">DWTL</span>
+                        <span class="opacity8">(HTML/SCSS)</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="projectimg">
+                        <img src="img/project_img/trihearta.jpg">
+                        <div class="overlay">
+                            <a href="https://trihearta.org/" target="_blank">Live View</a>
+                        </div>
+                    </div>
+                    <div class="projectdetail">
+                        <span class="projectname">Trihearta</span>
+                        <span class="opacity8">(HTML/SCSS/JS - Laravel)</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="projectimg">
+                        <img src="img/project_img/bitamin.jpg">
+                        <div class="overlay">
+                            <a href="https://bitaminnaturals.com/" target="_blank">Live View</a>
+                        </div>
+                    </div>
+                    <div class="projectdetail">
+                        <span class="projectname">Bitamin</span>
+                        <span class="opacity8">(Shopify)</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="projectimg">
+                        <img src="img/project_img/naturevit.jpg">
+                        <div class="overlay">
+                            <a href="https://naturevit.in/" target="_blank">Live View</a>
+                        </div>
+                    </div>
+                    <div class="projectdetail">
+                        <span class="projectname">Naturevit</span>
+                        <span class="opacity8">(Shopify)</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="projectimg">
+                        <img src="img/project_img/shadowdubai.jpg">
+                        <div class="overlay">
+                            <a href="https://hijab.shadowdubai.com/" target="_blank">Live View</a>
+                        </div>
+                    </div>
+                    <div class="projectdetail">
+                        <span class="projectname">Shadow Dubai</span>
+                        <span class="opacity8">(Shopify)</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="projectimg">
+                        <img src="img/project_img/meraki.jpg">
+                        <div class="overlay">
+                            <a href="https://www.meraki-chikankari.com/" target="_blank">Live View</a>
+                        </div>
+                    </div>
+                    <div class="projectdetail">
+                        <span class="projectname">Meraki Chikankari</span>
+                        <span class="opacity8">(Shopify)</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="projectimg">
+                        <img src="img/project_img/designerkurti.jpg">
+                        <div class="overlay">
+                            <a href="https://www.dkhkurties.com/" target="_blank">Live View</a>
+                        </div>
+                    </div>
+                    <div class="projectdetail">
+                        <span class="projectname">Designer Kurti House</span>
+                        <span class="opacity8">(Shopify)</span>
+                    </div>
+                </div>
+            </div>
+            <a href="porfolio.html" class="normal_btn browse_btn">View More</a>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container py text-center">
+            <h3>Contact</h3>
+            <div class="row d-flex">
+                <div class="col phone d-flex">
+                    <div class="icon">
+                        <img src="img/telephone-call.png" alt="call">
+                    </div>
+                    <span>Phone</span>
+                    <span class="opacity8">+91 7529053807</span>
+                </div>
+                <div class="col mail d-flex">
+                    <div class="icon">
+                        <img src="img/email.png" alt="mail">
+                    </div>
+                    <span>Email</span>
+                    <span class="opacity8">rkbal98@gmail.com</span>
+                </div>
+                <div class="col address d-flex">
+                    <div class="icon">
+                        <img src="img/pin.png" alt="address">
+                    </div>
+                    <span>Address</span>
+                    <span class="opacity8">Khanna, Ludhiana, Punjab</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center">
+        <p>Design by Rupinder Kaur</p>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
